@@ -1,0 +1,183 @@
+
+/* PC screens*/
+@media only screen and (max-width:1200px) {
+
+    
+.hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.row {
+    padding: 0 2%;
+}
+
+
+}
+
+/*iPad and other Tablets*/
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px;}
+    section {padding: 60px 0;}
+
+    .long-copy {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .steps-box { 
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .steps-box:last-child {
+        padding-left: 3%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .works-step div {
+        border: 1px solid #e67e22;
+        height: 45px;
+        width: 45px;
+        font-size: 110%;
+        padding-top: 7px;
+        margin-right: 20px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .section-cities ion-icon {
+        width: 20px;
+        margin-right: 2px;
+    }
+
+    .city-feature {
+        font-size: 90%;
+    }
+
+    
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+        font-size: 85%;
+    }
+
+    .works-step {margin-bottom: 20px;}
+
+        .btn-app img {
+            height: 45px;
+            margin-right: 10px;
+        }
+
+        .steps-box:first-child {
+            text-align: right;
+            padding-right: 4%;
+            margin-top: 30px;
+        }
+
+
+        .contact-form {
+            width: 90%;
+        }
+
+        .footernav li {
+            padding: 0px 10px 0px 0px;
+        }
+
+
+}
+
+/* Phones smaller than the iPad or other tablets*/
+@media only screen and (max-width: 767px) {
+
+
+    body {font-size: 16px}
+    section {padding: 30px 0}
+    .row, 
+    .hero-text-box {padding: 0 4%}
+
+    .col {width: 100%}
+
+    .main-nav { display: none;}
+
+    .long-copy {
+        width: 100%;
+    }
+
+    h1{font-size: 170%}
+    h2{font-size: 140%}
+    h3{font-size: 110%}
+
+    .app-screen {
+        width: 40%;
+        margin: 0 30%;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .btn-app img {
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .col {
+     margin: 3px 0;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+        position: fixed;
+        z-index: 99999;
+    }
+
+    .mobile-nav-icon-close {
+        display: none;
+        position: fixed;
+        z-index: 99999;
+    }
+
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 20px;
+    }
+    .main-nav li {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border: none;
+        text-decoration: none;
+    }
+
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        border: none;
+        text-decoration: none;
+        
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section {padding: 25px 0;}
+    h2 { 
+    margin-bottom: 5px;
+    padding-bottom: 5px;}
+
+    h2:after {
+        margin-top: 10px;
+    }
+
+    .steps-box:first-child {
+        margin-top: 10px;
+    }
+}
